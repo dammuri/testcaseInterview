@@ -1,0 +1,29 @@
+{ 
+"definition": 
+    {"openapi": "3.0.0",
+    "info" : {
+        "title" : "API test",
+        "description" : "testing purpose API",
+        "version" : "0.0.1v"
+    },
+    "servers" : [
+        {
+            "url" : "http://localhost:5000",
+            "description": "localhost"
+        }
+    ],
+    "tags": [
+        {
+            "name": "booking",
+            "description" : "booking"
+        },
+        {
+            "name" : "books",
+            "description" : "book"
+        },
+        {
+            "name": "members",
+            "description" : "members"
+        }
+    ]
+}}
